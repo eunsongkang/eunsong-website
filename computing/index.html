@@ -11,10 +11,10 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
     <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- custom css -->
-<link rel="stylesheet" href="assets/dist/css/custom.css">
+<link rel="stylesheet" href="../assets/dist/css/custom.css">
 
     <style>
       body {background-color: black;}
@@ -34,7 +34,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="assets/dist/css/carousel.css" rel="stylesheet">
+    <link href="../assets/dist/css/carousel.css" rel="stylesheet">
 
     <!-- Javascript for the template -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -46,7 +46,7 @@
   <body>
     <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#" style="font-family: 'Courier New', Courier, monospace;font-size: medium;">Eunsong's site</a>
+    <a class="navbar-brand" href="/" style="font-family: 'Courier New', Courier, monospace;font-size: medium;">Eunsong's site</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -81,7 +81,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
-        <img width="100%" height="100%" src="assets/dist/images/town_1200_900.png" alt="image of town">
+        <a href="/"><img width="100%" height="100%" src="../assets/dist/images/town_1200_900.png" alt="image of town"></a>
         <div class="container">
           <!-- <div class="carousel-caption text-left">
             <h1>Example headline.</h1>
@@ -92,7 +92,7 @@
       </div>
       <div class="carousel-item">
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
-        <img width="100%" height="100%" src="assets/dist/images/westgate_1200_900.png" alt="image of westgate">
+        <a href="/"><img width="100%" height="100%" src="../assets/dist/images/westgate_1200_900.png" alt="image of westgate"></a>
         <div class="container">
           <!-- <div class="carousel-caption">
             <h1>Another example headline.</h1>
@@ -103,7 +103,7 @@
       </div>
       <div class="carousel-item">
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
-        <img width="100%" height="100%" src="assets/dist/images/tree_1200_900.png" alt="image of tree">
+        <a href="/"><img width="100%" height="100%" src="../assets/dist/images/tree_1200_900.png" alt="image of tree"></a>
         <div class="container">
           <!-- <div class="carousel-caption text-right">
             <h1>One more for good measure.</h1>
@@ -130,43 +130,25 @@
 
   <div class="container marketing">
 
+    <!-- START THE COMPUTING FEATURETTE -->
+
+    <hr class="featurette-divider">
+
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 id="welcome" class="featurette-heading">Welcome</h2>
+        <h2 id="computing" class="featurette-heading">Computing</h2>
         <p class="lead"></p> 
-        <p class="eunsong-heading-medium">Hello everyone! My name is Eunsong Kang. This is the first time I've ever made a website so I'm super excited that you've come to explore it. Enjoy!</p>
+        <p class="eunsong-heading-medium">I started learning how to program roughly two years ago. So making this website has been the first big project I've ever worked on. And the first project that's been a success! Eventhough I still find some things in computing difficult, I really enjoy it and I plan to continue improving and working on my computing skills. I made this section because I want to share my computing journey with the world, and also for me to look back on it and see how much I've learnt.</p>
       </div>
       <div class="col-md-5">
         <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-        <img class="featurette-image img-fluid mx-auto" src="assets/dist/images/snowy_woods.png" alt="photo of snowy woods" width="500" height="500">
+        <img class="featurette-image img-fluid mx-auto" src="../assets/dist/images/computer.png" alt="drawing of a computer" width="500" height="500">
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#996699"/><text x="50%" y="50%" fill="#996699" dy=".3em">140x140</text></svg> -->
-        <a href="/hobbies/"><img style=border-radius:50%; src="/assets/dist/images/painting_140_140.png"></a>
-        <h2>HOBBIES</h2>
-        <p class="eunsong-heading-medium">My random interests</p>
-        <p><a class="btn btn-secondary" href="hobbies/index.html" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#996666"/><text x="50%" y="50%" fill="#996666" dy=".3em">140x140</text></svg> -->
-        <a href="/computing/"><img style=border-radius:50%; src="/assets/dist/images/computer_140_140.png"></a>
-        <h2>COMPUTING</h2>
-        <p class="eunsong-heading-medium">My computing journey</p>
-        <p><a class="btn btn-secondary" href="computing/index.html" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#666699"/><text x="50%" y="50%" fill="#666699" dy=".3em">140x140</text></svg>
-        <h2>WELCOME</h2>
-        <p class="eunsong-heading-medium">Hello, I hope you enjoy exploring my site!</p>
-        <p><a class="btn btn-secondary" href="#welcome" role="button">View details &raquo;</a></p> -->
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+    <!-- /END THE COMPUTING FEATURETTE -->
 
   </div><!-- /.container -->
 
